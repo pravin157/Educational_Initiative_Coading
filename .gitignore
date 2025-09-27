@@ -1,0 +1,53 @@
+# Build output
+/out/
+bin/
+*.class
+
+# IDE files
+/.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven/Gradle
+target/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java specific
+*.jar
+*.war
+*.ear
+
+# Misc
+compile-errors.txt
+sources.txt
+
+# Environment files
+.env
+
+# JetBrains
+.idea/
+
+# Windows
+desktop.ini
+
+# Node (if any)
+node_modules/
+
+# Ignore output of local tooling
+out/
