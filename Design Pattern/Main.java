@@ -1,6 +1,6 @@
 import behavioral.*;
 // import creational.*;
-// import structural.*;
+import structural.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,11 +16,11 @@ public class Main {
         // System.out.println("\n--- Factory Pattern ---");
         // FactoryDemo.run();
 
-        // System.out.println("\n--- Adapter Pattern ---");
-        // AdapterDemo.run();
+        System.out.println("\n--- Adapter Pattern ---");
+        AdapterDemo.run();
 
-        // System.out.println("\n--- Decorator Pattern ---");
-        // DecoratorDemo.run(); 
+        System.out.println("\n--- Decorator Pattern ---");
+        DecoratorDemo.run(); 
 
 
     }
