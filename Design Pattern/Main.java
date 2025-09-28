@@ -1,6 +1,9 @@
-import behavioral.*;
-import creational.*;
-import structural.*;
+import behavioral.strategy.StrategyDemo;
+import behavioral.observer.ObserverDemo;
+import creational.singleton.SingletonDemo;
+import creational.factory.FactoryDemo;
+import structural.adapter.AdapterDemo;
+import structural.decorator.DecoratorDemo;
 
 public class Main {
     public static void main(String[] args) {
