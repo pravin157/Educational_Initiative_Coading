@@ -1,15 +1,16 @@
 package models;
 
+
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-
+// Enum for task priority
 public class Task {
     private String description;
     private LocalTime startTime;
     private LocalTime endTime;
     private Priority priority;
     private boolean completed;
-
+// Constructor
     public Task(String description, LocalTime startTime, LocalTime endTime, Priority priority) {
         this.description = description;
         this.startTime = startTime;
@@ -37,7 +38,7 @@ public class Task {
     public boolean conflictsWith(Task other) {
         return !(endTime.isBefore(other.startTime) || startTime.isAfter(other.endTime));
     }
-
+// String representation of the task
     @Override
     public String toString() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
