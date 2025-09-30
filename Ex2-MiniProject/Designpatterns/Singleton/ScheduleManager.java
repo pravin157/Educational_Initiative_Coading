@@ -8,7 +8,7 @@ import exceptions.TaskConflictException;
 import exceptions.TaskNotFoundException;
 import java.util.*;
 import java.util.stream.Collectors;
-
+// Singleton ScheduleManager class implementing TaskListener for observer pattern
 public class ScheduleManager implements TaskListener {
     private static ScheduleManager instance;
     private List<Task> tasks;
