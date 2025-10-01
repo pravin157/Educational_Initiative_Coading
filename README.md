@@ -78,7 +78,7 @@ java Main
 
 This mini-project is a console-based Astronaut Daily Schedule Organizer implemented in Java. It demonstrates practical usage of design patterns (Singleton, Factory, Observer) and contains simple task management features.
 
-## Project Structure (Ex2)
+## Project Structure 
 
 ```
 Ex2-MiniProject/
@@ -100,7 +100,7 @@ Ex2-MiniProject/
     └── (task model files)
 ```
 
-## Quick Features (Ex2)
+## Quick Features 
 
 - Add, remove, and edit tasks (description, start/end time, priority).
 - Mark tasks as completed.
@@ -111,7 +111,7 @@ Ex2-MiniProject/
 - Centralized logging and schedule management via Singleton pattern.
 - Task creation via Factory pattern.
 
-## How to Compile & Run (Ex2)
+## How to Compile & Run
 
 From the repository root or the `Ex2-MiniProject` directory (Windows):
 
@@ -129,7 +129,7 @@ java Main
 ```
 
 
-### Example interactive session (short)
+### Example interactive session
 ```
 =========================================
    ASTRONAUT DAILY SCHEDULE ORGANIZER
