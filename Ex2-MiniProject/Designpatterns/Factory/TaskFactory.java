@@ -52,4 +52,4 @@ public class TaskFactory {
         logger.logInfo("Creating task with direct parameters: " + description);
         return new Task(description, startTime, endTime, priority);
     }
-}
+}       
